@@ -195,7 +195,7 @@ dialog{padding:40px;border:0;color:var(--navy);width:min(1150px,calc(100% - 40px
 
 #mobile-menu a,#mobile-menu button{font-size:15px}
 
-.hero p,.quality-copy p,.offer-copy p,.history p{font-size:17px;line-height:1.6}
+.hero p,.quality-copy p,.offer-copy p,.history p{font-size:21px;line-height:1.6}
 .hero p{max-width:520px}
 .hero p strong,.quality-copy p strong,#species-intro strong{font-size:inherit}
 
