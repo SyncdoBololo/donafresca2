@@ -189,3 +189,15 @@ dialog{padding:40px;border:0;color:var(--navy);width:min(1150px,calc(100% - 40px
   .store-number a{font-size:22px}
   .store-actions{display:grid;grid-template-columns:1fr;width:100%}
 }
+
+
+.desktop-nav a,.desktop-nav button{font-size:14px}
+
+#mobile-menu a,#mobile-menu button{font-size:15px}
+
+.hero p strong,.quality-copy p strong,#species-intro strong{font-size:17px}
+
+.hero-title-art{width:min(750px,100%)}
+.quality-title-art{width:min(380px,100%)}
+.offer-title-art{width:min(430px,100%)}
+.history-title-art{width:min(350px,100%)}
