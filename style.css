@@ -208,3 +208,5 @@ dialog{padding:40px;border:0;color:var(--navy);width:min(1150px,calc(100% - 40px
 .quality-title-art{width:min(380px,100%)}
 .offer-title-art{width:min(430px,100%)}
 .history-title-art{width:min(350px,100%)}
+.store-photo{background:var(--deep);min-height:360px}
+.store-grid .store-photo img{width:100%;height:100%;max-height:520px;object-fit:cover;object-position:center 60%}

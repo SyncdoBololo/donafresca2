@@ -19,7 +19,8 @@ Abra `index.html` diretamente no navegador. Os arquivos do GSAP estão em `vendo
 
 ## Dados comerciais
 
-- Endereço: Av. Oito de Abril, 270 - Porto, Cuiabá - MT, 78025-340
-- Telefone e WhatsApp: (65) 99205-4009
+- Endereço: Av. Brasil, 209 - Jardim das Palmeiras, Lucas do Rio Verde - MT, 78455-000
+- Instagram: https://www.instagram.com/donafresca_lrv/
+- Telefone e WhatsApp: (65) 9844-0844
 
 Produtos, valores e disponibilidade devem ser confirmados com a loja.

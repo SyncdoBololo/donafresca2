@@ -149,7 +149,7 @@ function updateOrder() {
   const message = count
     ? `Olá, Donafresca! Gostaria de consultar este pedido:\n\n${lines.join('\n')}\n\nTotal estimado: ${money(total)}. Pode confirmar disponibilidade, peso e valor?`
     : 'Olá, Donafresca! Gostaria de consultar os produtos disponíveis hoje.';
-  $('#order-link').href = 'https://wa.me/5565992054009?text=' + encodeURIComponent(message);
+  $('#order-link').href = 'https://wa.me/556598440844?text=' + encodeURIComponent(message);
 }
 
 $('#product-grid').addEventListener('click', event => {
