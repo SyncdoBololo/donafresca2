@@ -210,3 +210,19 @@ dialog{padding:40px;border:0;color:var(--navy);width:min(1150px,calc(100% - 40px
 .history-title-art{width:min(350px,100%)}
 .store-photo{background:var(--deep);min-height:360px}
 .store-grid .store-photo img{width:100%;height:100%;max-height:520px;object-fit:cover;object-position:center 60%}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:40;display:none;align-items:center;gap:8px;padding:12px 16px 12px 13px;border-radius:999px;background:#1faa55;color:#fff;font-size:13px;font-weight:700;letter-spacing:.3px;box-shadow:0 8px 24px #00172a40}
+.wa-float svg{width:24px;height:24px}
+body:has(dialog[open]) .wa-float{display:none!important}
+@media(max-width:800px){
+  .wa-float{display:inline-flex}
+  footer{padding-bottom:72px}
+  .footer-bottom .back-top{position:static}
+  .store-grid .store-photo{min-height:0}
+  .store-grid .store-photo img{height:260px;max-height:260px;object-position:center 45%}
+  .store-number a{font-size:24px}
+}
+@media(max-width:600px){
+  .filters{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-18px;padding-right:18px}
+  .filters::-webkit-scrollbar{display:none}
+  .filters button{flex:0 0 auto;white-space:nowrap}
+}
